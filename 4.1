@@ -1,4 +1,10 @@
+package com.company;
+
+import java.util.Random;
+import java.util.Scanner;
+
 public class Main {
+
     public static void main(String[] args) {
         int[] randomAray = new int[10];
         Random random = new Random();
@@ -18,8 +24,10 @@ public class Main {
                 break;
             }
         }
-        if (test)
+        if (test) {
             System.out.println("Yes contains");
-        else System.out.println("Does not contain ");
+        } else {
+            System.out.println("Does not contain ");
+        }
     }
 }
